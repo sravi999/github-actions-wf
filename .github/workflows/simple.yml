@@ -6,6 +6,8 @@ jobs:
   run-shell-script:
     runs-on: ubuntu-latest
     steps:
-    - name: Run simple shell script
+    - name: Git Checkout
       uses: actions/checkout
+
+    - name: Run simple shell script
       run: bash simple_script.sh
