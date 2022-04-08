@@ -7,4 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run simple shell script
+      - uses: actions/checkout
       run: bash simple_script.sh
