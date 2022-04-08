@@ -3,7 +3,7 @@ name: Simple github Workflow
 on: [push]
 
 jobs:
-  Run shell script:
+  run-shell-script:
     runs-on: ubuntu:18.04
     steps:
     - name: Run simple shell script
